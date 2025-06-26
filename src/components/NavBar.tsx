@@ -16,7 +16,7 @@ function NavBar({ user, onLogout }: NavBarProps) {
   return (
     <nav className="navbar">
       <div className="navbar-start">
-        <Link className="navbar-item" to="/">
+        <Link className="navbar-item" to="/job-board-client-ts/">
           Home
         </Link>
       </div>

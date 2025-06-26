@@ -3,7 +3,8 @@
 // for better security. Also, it doesn't handle token expiration.
 import { jwtDecode } from 'jwt-decode';
 
-const API_URL = 'http://localhost:9000';
+// const API_URL = 'http://localhost:9000';
+const API_URL = 'https://job-board-server-ts.onrender.com/graphql';
 
 const ACCESS_TOKEN_KEY = 'accessToken';
 
