@@ -2,7 +2,7 @@ import { ApolloClient, ApolloLink, concat, createHttpLink, InMemoryCache } from 
 import { getAccessToken } from '../auth';
 import { graphql } from '../../generated';
 
-const httpLink = createHttpLink({ uri: 'http://localhost:9000/graphql' });
+const httpLink = createHttpLink({ uri: 'https://job-board-server-ts.onrender.com/graphql' });
 
 const authLink = new ApolloLink((operation, forward) => {
   const accessToken = getAccessToken();
