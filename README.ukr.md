@@ -14,6 +14,7 @@
 [![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)](#)
 
 Це клієнт React/GraphQL/Apollo з [Job Board client](https://github.com/labattaria/job-board-client) репозиторію, але перенесений і перетворений на TypeScript
+
 Клієнтський застосунок був трохи відрефакторений із використанням TypeScript, що додало типобезпечність коду
 
 Він використовує генератор коду GraphQL TypeScript, який дозволяє нам генерувати TypeScript-типи та gql-graphql функції з нашої GraphQL-схеми, запитів та мутацій
@@ -25,7 +26,7 @@
 ## Залежностi, якi використовуються:
 
 - **TypeScript** - Мова, що базується на JavaScript, додаючи статичні типи, допомагає розробникам раніше знаходити помилки та писати більш надійний код
-- **GraphQL Code Generator** - Tool that automatically generates TypeScript types (or other language types) and boilerplate code based on your GraphQL schema and operations
+- **GraphQL Code Generator** - Інструмент, який автоматично генерує TypeScript-типи (або типи інших мов) і шаблонний код на основі вашої GraphQL-схеми та операцій
 - **Vite** - Швидкий і сучасний інструмент збірки, який забезпечує дуже швидку та гарячу заміну модулів (HMR) для розробки, оптимізований для фреймворків
 - **React** - Бібліотека, що використовується для створення користувацьких інтерфейсів, особливо для односторінкових застосунків, де потрібен швидкий та інтерактивний досвід
 - **GraphQL** - Основна бібліотека GraphQL

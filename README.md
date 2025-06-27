@@ -14,6 +14,7 @@
 [![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)](#)
 
 This is the React/GraphQL/Apollo client from the [Job Board client](https://github.com/labattaria/job-board-client) repo, but migrated and converted to TypeScript
+
 The client-side application was slightly refactored using TypeScript, which added type safety to the code
 
 It uses the GraphQL TypeScript code generator, which allows us to generate TypeScript types and gql-graphql functions from our GraphQL schema, queries, and mutations
