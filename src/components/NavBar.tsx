@@ -20,6 +20,7 @@ function NavBar({ user, onLogout }: NavBarProps) {
           Home
         </Link>
       </div>
+
       {loggedIn ? (
         <div className="navbar-end">
           <span className="navbar-item has-text-grey">{user.email}</span>
