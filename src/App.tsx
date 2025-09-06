@@ -17,12 +17,12 @@ function App() {
 
   const handleLogin = (user: User) => {
     setUser(user);
-    navigate("/job-board-client-ts/");
+    navigate("/");
   };
 
   const handleLogout = () => {
     setUser(null);
-    navigate("/job-board-client-ts/");
+    navigate("/");
   };
 
   return (
@@ -30,7 +30,7 @@ function App() {
       <NavBar user={user} onLogout={handleLogout} />
       <main className="section">
         <Routes>
-          <Route index path="/job-board-client-ts/" element={<HomePage />} />
+          <Route index path="/" element={<HomePage />} />
           <Route path="/companies/:companyId" element={<CompanyPage />} />
           <Route path="/jobs/new" element={<CreateJobPage />} />
           <Route path="/jobs/:jobId" element={<JobPage />} />
